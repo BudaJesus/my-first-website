@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(168, 167, 167);
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.navbar a {
+    font-size: 2rem;
+    text-transform: uppercase;   
+    font-weight: 100;
+   
+}
+.navbar-nav>a{
+    font-size: 1.3rem;
+    font-weight: 530;
+    margin: auto 1rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+
+@media (min-width: 960px) {
+   
+    h2{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
