@@ -22,6 +22,27 @@ p{
     font-size: 1rem;
 }
 
+
+img{
+    cursor: pointer;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;}
+
+
+#row-1 img:hover {
+   transform: translate(2%,0);
+   box-shadow: -5px 0 10px 13px rgba(212, 212, 212, 0.3);
+}
+#row-2 img:hover {
+    transform: translate(-2%,0);
+    box-shadow: 5px 0 10px 13px rgba(212, 212, 212, 0.3);
+}
+ #row-3 img:hover {
+    transform: translate(2%,0);
+    box-shadow: -5px 0 10px 13px rgba(212, 212, 212, 0.3);
+ }
+ 
+
+
 @media (min-width: 960px) {
    
     h2{
